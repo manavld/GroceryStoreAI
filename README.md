@@ -4,7 +4,7 @@ Grocery Store AI is an Artificial Intelligence based game made with Unity develo
 
 It has 4 entities; cashier, client, cleaner and dependant that complete their function in a usual grocery store by our own programmed Steering Behaviours and with their own Behaviour Trees to move across, in and out of the store with its corresponding day/night cycle.
 
-The objective of the game is to mantain the correct attendance and help towards the clients in order to keep the business running. The entities move by themselves but the player can choose some actions shown in the UI. The player will win after completing 3 days but will lose if before those 3 days he/she does not help 5 or more clients in need of it.
+The objective of the game is to mantain the correct attendance and help towards the clients in order to keep the business running. The entities move by themselves but the player can choose some actions shown in the UI. The player will win after completing 3 days but will lose if before those 3 days the store review has 0 stars.
 
 ## Authors 
 
@@ -19,17 +19,9 @@ This game was created by two memebers:
 <img src="ManavLakhwani.gif" alt="Manav Lakhwani" width="200" height="250">
 
 
-# Screenshots
+# Game Screenshot
 
-<img src="" alt="Main Scene">
-<img src="" alt="Main Menu">
-<img src="" alt="SS3">
-
-# Gameplay Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=cJ-fuJRgqUc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cJ-fuJRgqUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="Screen.png" alt="Main Scene">
 
 # How To Play
 
@@ -42,6 +34,8 @@ Download the .zip in the last release in [https://github.com/Gerard346/Project-A
 * Car Botton: Click and put the car around the outside of the store to spawn car
 * Cashier Botton: Click to automatically create a cashier machine inside the store (maximum of 3 active)
 * Pause Botton: Click to pause game
+* Lvl up cashier so they sell faster.
+* Marketing Campaign button: Does a marketing campeign to increase a star.
 
 ## Win/Loss Condition
 
@@ -85,7 +79,7 @@ At 12::00 at night he comes to clean the shop, after he cleaned all the shop he 
 
 * **Dependent**
 
-Goes to the store when his shift starts, waits and observes clients if they need help, helps the clients when they do, goes home when shift ends.
+Goes to the store when his shift starts, waits and observes clients if they need help, helps the clients when they do, goes home when shift ends.For dependent movements, when a client needs your help to decide wich product will buy, you have to click the dependent, and then click the client. Afterwards the dependent will talk with the client and help him decide, so he goes home happy.
 
 <img src="DependentScreenshot.jpg" alt="Dependent Screenshot" width="150" height="120">
 
