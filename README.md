@@ -1,8 +1,10 @@
 # Description
 
 Grocery Store AI is an Artificial Intelligence based game made with Unity developed for a university project in CITM UPC (Terrasa, Spain) in our degree in Videogame Developement and Design.
+
 It has 4 entities; cashier, client, cleaner and dependant that complete their function in a usual grocery store by our own programmed Steering Behaviours and with their own Behaviour Trees to move across, in and out of the store with its corresponding day/night cycle.
-The objective of the game is to mantain the correct attendance and help towards the clients in order to keep the business running.
+
+The objective of the game is to mantain the correct attendance and help towards the clients in order to keep the business running. The entities move by themselves but the player can choose some actions shown in the UI. The player will win after completing 3 days but will lose if before those 3 days he/she does not help 5 or more clients in need of it.
 
 ## Authors 
 
@@ -10,15 +12,12 @@ This game was created by two memebers:
 
 * Gerard Gil: [https://github.com/Gerard346](https://github.com/Gerard346)
 
-<img src="" alt="Gerard Gil">
+<img src="GerardGil.jpg" alt="Gerard Gil" width="200" height="250">
 
 * Manav Lakhwani: [https://github.com/manavld](https://github.com/manavld)
 
 <img src="ManavLakhwani.gif" alt="Manav Lakhwani" width="200" height="250">
 
-# Trailer
-
-[Link](url)
 
 # Screenshots
 
