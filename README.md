@@ -42,13 +42,11 @@ Download the .zip in the last release in [https://github.com/Gerard346/Project-A
 
 
 
-# Links
-
-## Github Repository
+# Github Repository
 
 [https://github.com/Gerard346/Project-AI](https://github.com/Gerard346/Project-AI)
 
-## Link to the Wiki
+# Link to the Wiki
 
 You will find more information about the game and the Behaviour Trees in the wiki: [https://github.com/Gerard346/Project-AI/wiki](https://github.com/Gerard346/Project-AI/wiki)
 
