@@ -39,8 +39,14 @@ Download the .zip in the last release in [https://github.com/Gerard346/Project-A
 
 * WASD: Camera Movement
 * R: Return camera to initial position
+* Car Botton: Click and put the car around the outside of the store to spawn car
+* Cashier Botton: Click to automatically create a cashier machine inside the store (maximum of 3 active)
+* Pause Botton: Click to pause game
 
+## Win/Loss Condition
 
+* **Win**: The player will win if he/she successfuly completed 3 days without upseting more than 4 clients by leaving them unattending when they ask for help.
+* **Loss**: The player will lose if before those 3 days he/she upsets more than 4 clients by not helping them when they ask for it.
 
 ## Github Repository
 
@@ -59,25 +65,25 @@ You will find more information about the game and the Behaviour Trees in the wik
 ## Types Of Agents
 
 
-### Cashier
+* **Cashier**
 
 Spawn, Paths to his cash and waits till his turn is finished. Then goes home around 10 o'clock at night.
 
 <img src="CashierScreenshot.jpg" alt="Cashier Screenshot" width="150" height="120">
 
-### Client
+* **Client**
 
 Spawns when the shop is open, goes to inside the shop, picks an area to pick an object, then wait his turn in the queue to buy the thing he picked, when a spot is clear, he goes in and buys. He stays there a bit with the cashier, waiting his change. After he got the change, he goes home.
 
 <img src="ClientScreenshot.jpg" alt="Client Screenshot" width="150" height="120">
 
-### Cleaner
+* **Cleaner**
 
 At 12::00 at night he comes to clean the shop, after he cleaned all the shop he goes home.
 
 <img src="CleanerScreenshot.jpg" alt="Cleaner Screenshot" width="150" height="120">
 
-### Dependent
+* **Dependent**
 
 Goes to the store when his shift starts, waits and observes clients if they need help, helps the clients when they do, goes home when shift ends.
 
