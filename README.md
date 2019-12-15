@@ -82,7 +82,7 @@ Goes to the store when his shift starts, waits and observes clients if they need
 
 * **Client**: The client will decide to go to the store if open, go to the object he need and pick it up or ask for help, when picked the client will go to the queue, buy his items, and go home when bought.
 
-<img src="https://github.com/manavld/AIProjectPics/blob/master/Client%20BT2.jpg" alt="Client BT">
+<img src="ClientBT.jpg" alt="Client BT t">
 
 ![Client BT](https://github.com/manavld/AIProjectPics/blob/master/Client%20BT2.jpg)
 
