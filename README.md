@@ -32,7 +32,7 @@ Download the .zip in the last release in [https://github.com/Gerard346/Project-A
 * WASD: Camera Movement
 * R: Return camera to initial position
 * Car Botton: Click and put the car around the outside of the store to spawn car
-* Cashier Botton: Click to automatically create a cashier machine inside the store (maximum of 3 active)
+* Cashier Botton: Click to automatically create a cashier machine inside the store in the next day (maximum of 3 active)
 * Pause Botton: Click to pause game
 * Lvl up cashier so they sell faster.
 * Marketing Campaign button: Does a marketing campeign to increase a star.
