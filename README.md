@@ -14,7 +14,7 @@ This game was created by two memebers:
 
 * Manav Lakhwani: [https://github.com/manavld](https://github.com/manavld)
 
-<img src="" alt="Manav Lakhwani">
+<img src="ManavLakhwani.gif" alt="Manav Lakhwani">
 
 # Trailer
 
