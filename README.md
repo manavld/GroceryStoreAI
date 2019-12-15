@@ -27,7 +27,7 @@ This game was created by two memebers:
 
 # Gameplay Video
 
-[Link](url)
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=cJ-fuJRgqUc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
@@ -42,11 +42,11 @@ Download the .zip in the last release in [https://github.com/Gerard346/Project-A
 
 
 
-# Github Repository
+## Github Repository
 
 [https://github.com/Gerard346/Project-AI](https://github.com/Gerard346/Project-AI)
 
-# Link to the Wiki
+## Link to the Wiki
 
 You will find more information about the game and the Behaviour Trees in the wiki: [https://github.com/Gerard346/Project-AI/wiki](https://github.com/Gerard346/Project-AI/wiki)
 
