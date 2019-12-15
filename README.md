@@ -1,37 +1,99 @@
-## Welcome to GitHub Pages
+# Description
 
-You can use the [editor on GitHub](https://github.com/manavld/GroceryStoreAI/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Grocery Store AI is an Artificial Intelligence based game made with Unity developed for a university project in CITM UPC (Terrasa, Spain) in our degree in Videogame Developement and Design.
+It has 4 entities; cashier, client, cleaner and dependant that complete their function in a usual grocery store by our own programmed Steering Behaviours and with their own Behaviour Trees to move across, in and out of the store with its corresponding day/night cycle.
+The objective of the game is to mantain the correct attendance and help towards the clients in order to keep the business running.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Authors 
 
-### Markdown
+This game was created by two memebers:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* Gerard Gil: https://github.com/Gerard346
 
+![Gerard Gil](src)
+
+* Manav Lakhwani: https://github.com/manavld
+
+![Manav Lakhwani](src)
+
+# Trailer
+
+[Link](url)
+
+# Screenshots
+
+![Main Scene](src)
+![Main Menu](src)
+![SS3](src)
+
+# Gameplay Video
+
+[Link](url)
+
+# How To Play
+
+Download the .zip in the last release in https://github.com/Gerard346/Project-AI/releases and open the file .exe to play the game.
+
+## Controls
+
+* WASD: Camera Movement
+* R: Return camera to initial position
+
+# Links
 ```markdown
-Syntax highlighted code block
+# Github Repository
 
-# Header 1
-## Header 2
-### Header 3
+https://github.com/Gerard346/Project-AI
 
-- Bulleted
-- List
+# Link to the Wiki
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+You will find more information about the game and the Behaviour Trees in the wiki: https://github.com/Gerard346/Project-AI/wiki
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# Entity Information
 
-### Jekyll Themes
+## Agents
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/manavld/GroceryStoreAI/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Cashier
 
-### Support or Contact
+Spawn, Paths to his cash and waits till his turn is finished. Then goes home around 10 o'clock at night.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Cashier Screenshot](src)
+
+### Client
+
+Spawns when the shop is open, goes to inside the shop, picks an area to pick an object, then wait his turn in the queue to buy the thing he picked, when a spot is clear, he goes in and buys. He stays there a bit with the cashier, waiting his change. After he got the change, he goes home.
+
+![Client Screenshot](src)
+
+### Cleaner
+
+At 12::00 at night he comes to clean the shop, after he cleaned all the shop he goes home.
+
+![Cleaner Screenshot](src)
+
+### Dependent
+
+Goes to the store when his shift starts, waits and observes clients if they need help, helps the clients when they do, goes home when shift ends.
+
+![Dependant Screenshot](src)
+
+## Behaviour Trees
+
+* **Client**: The client will decide to go to the store if open, go to the object he need and pick it up or ask for help, when picked the client will go to the queue, buy his items, and go home when bought.
+
+![Client BT](https://github.com/manavld/AIProjectPics/blob/master/Client%20BT2.jpg)
+
+* **Cashier**: The cashier will go to work when the store is open, start working when its his turn, attend the clients when client is buying and go home when his turn ended.
+
+![Cashier BT](https://github.com/manavld/AIProjectPics/blob/master/Cashier%20BT.jpg)
+
+* **Cleaner**: The cleaner will walk to work when its his turn to work, grab the mob and start working until his time is done, leaves the mob back and goes back home.
+
+![Cleaner BT](https://github.com/manavld/AIProjectPics/blob/master/Cleaner%20BT.jpg)
+
+* **Dependent**: The dependent will go to work when his shift starts, will observe the clients in case they need help, when client is in need of help the dependent will go there and help the client and when his shift ends he will leave the shop and go home.
+
+![Dependent BT](https://github.com/manavld/AIProjectPics/blob/master/Dependent%20BT.jpg)
+
+
