@@ -30,6 +30,8 @@ This game was created by two memebers:
 
 [Link](url)
 
+
+
 # How To Play
 
 Download the .zip in the last release in [https://github.com/Gerard346/Project-AI/releases](https://github.com/Gerard346/Project-AI/releases) and open the file .exe to play the game.
@@ -38,6 +40,8 @@ Download the .zip in the last release in [https://github.com/Gerard346/Project-A
 
 * WASD: Camera Movement
 * R: Return camera to initial position
+
+
 
 # Links
 
@@ -50,33 +54,37 @@ Download the .zip in the last release in [https://github.com/Gerard346/Project-A
 You will find more information about the game and the Behaviour Trees in the wiki: [https://github.com/Gerard346/Project-AI/wiki](https://github.com/Gerard346/Project-AI/wiki)
 
 
+
+
 # Entity Information
 
-## Agents
+
+## Types Of Agents
+
 
 ### Cashier
 
 Spawn, Paths to his cash and waits till his turn is finished. Then goes home around 10 o'clock at night.
 
-<img src="" alt="Cashier Screenshot">
+<img src="CashierScreenshot.jpg" alt="Cashier Screenshot" width="150" height="120">
 
 ### Client
 
 Spawns when the shop is open, goes to inside the shop, picks an area to pick an object, then wait his turn in the queue to buy the thing he picked, when a spot is clear, he goes in and buys. He stays there a bit with the cashier, waiting his change. After he got the change, he goes home.
 
-<img src="" alt="Client Screenshot">
+<img src="ClientScreenshot.jpg" alt="Client Screenshot" width="150" height="120">
 
 ### Cleaner
 
 At 12::00 at night he comes to clean the shop, after he cleaned all the shop he goes home.
 
-<img src="" alt="Cleaner Screenshot">
+<img src="CleanerScreenshot.jpg" alt="Cleaner Screenshot" width="150" height="120">
 
 ### Dependent
 
 Goes to the store when his shift starts, waits and observes clients if they need help, helps the clients when they do, goes home when shift ends.
 
-<img src="" alt="Dependent Screenshot">
+<img src="DependentScreenshot.jpg" alt="Dependent Screenshot" width="150" height="120">
 
 ## Behaviour Trees
 
