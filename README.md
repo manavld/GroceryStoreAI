@@ -32,7 +32,7 @@ This game was created by two memebers:
 
 # How To Play
 
-Download the .zip in the last release in https://github.com/Gerard346/Project-AI/releases and open the file .exe to play the game.
+Download the .zip in the last release in [https://github.com/Gerard346/Project-AI/releases](https://github.com/Gerard346/Project-AI/releases) and open the file .exe to play the game.
 
 ## Controls
 
@@ -40,15 +40,15 @@ Download the .zip in the last release in https://github.com/Gerard346/Project-AI
 * R: Return camera to initial position
 
 # Links
-```markdown
-# Github Repository
+
+## Github Repository
 
 [https://github.com/Gerard346/Project-AI](https://github.com/Gerard346/Project-AI)
 
-# Link to the Wiki
+## Link to the Wiki
 
 You will find more information about the game and the Behaviour Trees in the wiki: [https://github.com/Gerard346/Project-AI/wiki](https://github.com/Gerard346/Project-AI/wiki)
-```
+
 
 # Entity Information
 
